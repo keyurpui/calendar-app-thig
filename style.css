@@ -1,0 +1,49 @@
+#Calendar {
+	margin-top: 40px;
+	min-width: 721px;
+	overflow: hidden;
+
+}
+#Timebar {
+	float: left;
+	list-style: none;
+	margin-right: 8px;
+}
+
+#Timebar li {
+	color: #A7A7A7;
+    font-size: 9px;
+    margin: 14px 0;
+    text-align: right;
+}
+
+#Timebar li.checkpoint {
+	margin: 15px 0;
+}
+
+#Timebar li b {
+	color: #888;
+    font-size: 13px;
+    margin-right: 2px;
+}
+
+#events {
+	padding: 0 10px 0 10px;
+	background: #D1D1D1;
+	width: 620px;
+	float: left;
+	position: relative;
+	height: 720px;
+}
+
+.event {
+	color: #23bf11;
+	background-color: #FFF;
+	border-left: 3px solid #23bf11;
+	position: absolute;
+}
+
+.event h2 {
+	color: #DADDE5;
+	font-size: 10px;
+}
